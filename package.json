@@ -1,0 +1,16 @@
+{
+  "name": "grpc-dev",
+  "version": "1.0.0",
+  "description": "this is for try dev for grpc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server/index.js"
+  },
+  "author": "Abhijit Gayen <agayen04@gmail.com>",
+  "license": "ISC",
+  "keywords": ["grpc", "dev"],
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.10",
+    "@grpc/proto-loader": "^0.7.13"
+  }
+}
