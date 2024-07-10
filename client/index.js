@@ -2,7 +2,7 @@ const GrpcClient = require("./grpc_client");
 
 // Usage
 const PROTO_PATH = "./protobuf/service.proto";
-const ADDRESS = "localhost:50051";
+const ADDRESS = "0.0.0.0:50051";
 const METHOD_NAME = "SayHello";
 const REQUEST_DATA = { name: "Abhijit" };
 
